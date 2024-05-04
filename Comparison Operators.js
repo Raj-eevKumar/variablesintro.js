@@ -1,0 +1,49 @@
+//Comparison Operators: ==(equal to), !=(not equal to)
+//It is used to for string, numeric, and boolean value as well.
+
+//Example 1:
+
+// var age = 12 // Number
+
+// var result = age == 12 //true
+// var result = age != 12 //false
+// console.log(result)
+
+//Example 2:
+
+// var name1 = "Rakesh" // string
+// var name2 = "Rakesh" // string
+
+// var result = name1 == name2
+// console.log(result)
+
+//Example 3:
+
+//var isFriday = true // boolean
+
+//var result = isFriday ==  true
+// if it returns true will party else no party
+//console.log(result)
+
+//Example 4: difference between double equal to and triple equal to
+
+//var age = 23
+
+//var result = age == " 23" //double equal to: it will ignore datatype and only considers content or value
+//console.log(result)
+
+// Solution Tripple Equal to(strickly equal to): it checks both value and datatype 
+
+//var result1 = age === "23" // false
+// var result1 = age !== "23" // false
+// var result3 =  34 !== 45
+// console.log(result3)
+
+
+//Example 5:
+
+var isRaining = true
+
+var result = isRaining !== false
+
+console.log(result)
