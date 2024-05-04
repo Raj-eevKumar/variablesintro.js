@@ -1,0 +1,64 @@
+//Mathematical Operators: +(addition), -(subtraction), *(multiplication), /(division), %(reminder/modulus)
+
+//Example 1: +(addition), -(subtraction), *(multiplication), /(division)
+
+// var num1 = 20
+// var num2 = 10
+
+// var add = num1 + num2
+// var sub = num1 - num2
+// var mul = num1 * num2
+// var div = num1 / num2
+
+// console.log("Addition: ",add) // Addition: 30
+// console.log("Subtraction: ",sub) // Subtraction: 10
+// console.log("Multiplication: ",mul) // Multiplication: 200
+// console.log("Division: ",div) // Division: 2
+
+//Example 2:
+
+// var employee = "Pranav Garg"
+// var designation= "Junior Software Engineer"
+// var salary = 80000
+
+// console.log("Employee Name ", employee)
+// console.log("Employee Designation: ", designation)
+// console.log("Employee Current Salary: ", salary)
+
+// //After Each Year he is getting some hike of 10 percent in hist current salary and being promted to Senior Software Engineer
+
+// designation = "Senior Software Engineer"
+
+// salary = salary + salary* 10/100;
+
+// console.log("--------------After Increment-----------------")
+// console.log("Employee Designation: ", designation)
+// console.log("Employee Current Salary: ", salary)
+
+
+//Example 3: Expression
+
+// var x = 10
+// var y = 2
+
+// var result = 2*x + 2*x*y
+
+// console.log(result)
+
+//Example 4: finding power: **
+
+// var x = 4;
+
+// var towPowerOfX = x**2
+
+// console.log(towPowerOfX)
+
+
+//Example 5:
+
+var candidaeNumber = 30;
+var panels = 4
+
+var rightPanel = candidaeNumber % 4
+
+console.log(rightPanel)
